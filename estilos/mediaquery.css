@@ -10,24 +10,23 @@
     .nome {
         color: #B78BFF;
         font-family: var(--fonte2);
-        font-size: 30px;
+        font-size: 35px;
         display: block;  
         text-align: center;
         margin: 0;
+        margin-top: 10px;
         
         
         
     }
 
     .botoes {
+        display: none;
         margin: 20px;
         padding: 0px;
 
     }
 
-    .botoes a {
-        font-size: 18px;
-    }
 
     #imagem {
         background: cover no-repeat;
