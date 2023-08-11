@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/*phone*/
+@media screen and (max-width:550px){  
+    :root {
+        --fonte1: 'Fira Sans', sans-serif;
+        --fonte2: 'Fira Code', monospace; 
+    }
+
+    .nome {
+        color: #B78BFF;
+        font-family: var(--fonte2);
+        font-size: 30px;
+        display: block;  
+        text-align: center;
+        margin: 0;
+        
+        
+        
+    }
+
+    .botoes {
+        margin: 20px;
+        padding: 0px;
+
+    }
+
+    .botoes a {
+        font-size: 18px;
+    }
+
+    #imagem {
+        background: cover no-repeat;
+        display: block;
+        width: 240px;
+        height: 270px;
+        border-radius: 13px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        float: none;
+
+       
+    }
+
+    main > h1 {
+        font-size: 40px;
+    }
+    
+    main > p {
+        color:white;
+        font-family: var(--fonte2);
+        font-size: 15px;
+        padding-top: 0px;
+        
+    }
+    
+    .texto {
+        align-items: center;
+        margin-left: 99px;
+        margin-top: 25px;
+    }
+    
+    
+    #containermain {
+        display: flex;
+    }
+
+    .texto-colorido {
+        color: #AFB137;
+        display: inline;
+        font-family: var(--fonte2);
+        font-size: 20px;
+    }
+    
+    #texto-colorido2 {
+        color: #B78BFF;
+        font-family: var(--fonte2);
+        font-size: 20px;
+    }
+}
