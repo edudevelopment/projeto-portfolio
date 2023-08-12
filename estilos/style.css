@@ -31,7 +31,7 @@ h1 {
     font-family: var(--fonte2);
     font-size: 36px;  
     display: flex;
-    margin-left: 120px;
+    margin-left: 200px;
     margin-top: 30px;
     
     
@@ -43,14 +43,18 @@ h1 {
     display: flex;
     float: right;
     margin-top: 20px;
-    margin-right: 30px;
+    margin-right: 200px;
     
     
 }
 
+.animation {
+    margin-left: 50px;
+    margin-bottom:10px ;
+}
 
 .botoes a {
-    margin: 50px;
+    
     color: white;
     text-decoration: none;
     font-family: var(--fonte1);
@@ -99,7 +103,7 @@ main > p {
 }
 
 .texto {
-    margin-left: 120px;
+    margin-left: 200px;
     margin-top: 200px;
 }
 
@@ -114,8 +118,8 @@ main > p {
     width: 400px;
     height: 446px;
     float: right;
-    border-radius: 13px;
-    margin-right: 80px;
+    border-radius: 6px;
+    margin-right: 200px;
     margin-top: 50px;
    
 }
@@ -134,20 +138,130 @@ main > p {
     font-size: 24px;
 }
 
+.projetos {
+    background-color: #FAFAFA;
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.projetos h1 {
+    padding: 30px;
+    padding-bottom: 10;
+    font-weight: bold;
+    font-size: 48px;
+
+}
+
+.projetos p {
+    font-size: 18px;
+    font-family: var(--fonte1);
+}
+
+.txt-proj {
+    color: black;
+    font-family: var(--fonte1);
+    font-weight: bold;
+
+}
+
+
+.imagem-projeto {
+    background: cover no-repeat;
+    display: flex;
+    width: 400px;
+    height: 490px;
+    float: left;
+    border-radius: 6px;
+    margin-top: 160px;
+    margin-left: 200px;
+    margin-right: 30px;    
+}
+
+
+.projetos fieldset {
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid rgb(189, 189, 189);
+    width: 440px;
+    height: 80px;
+    background-color: rgb(202, 202, 202);  
+    padding: 15px;  
+    
+}
+
+.p1 {
+    float: right;
+    color: rgba(0, 0, 0, 0.637);
+
+}
+
+
+.p2 {
+    display: inline;
+    border: 1px solid rgb(51, 50, 50);
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 50px;
+
+}
+
+
+
+fieldset .p2 {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+field
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 fieldset {
-    color:#B78BFF;
-    width: 250px;
+    color:black;
+    width: 500px;
     height: 300px;
-    border-radius: 10px;
-    margin: 30px;
-    padding: 10px;
+    border-radius: 6px;
+    margin:10px;
+    padding: 15px;
     font-family: var(--fonte1);
     font-size: 25px;
     border-color: transparent;
 }
 
 .formacao {
-    background-color: white;
+    background-color: #07011A;
     width: 100%;
     display: block;
     margin-top: 110px;
@@ -156,31 +270,29 @@ fieldset {
 
 .formacao div {
     display: flex;
-    margin-left: 80px;
+    margin-left: 200px;
 }
 
 .formacao h1 {
     font-family: var(--fonte1);
-    font-size: 64px;
+    font-size: 48px;
     padding-top: 100px;
-    color: black;
-    margin-left: 130px;
+    color: white;
+    margin-left: 210px;
 
     
 }
 
 .formacao fieldset {
     display: inline;
-    margin: 50px;
     margin-top: 20px;
-    background-color: #07011A;
+    background-color: #B78BFF;
     box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.39);
 }
 
 .formacao p {
     margin: 16px;
     font-size: 20px;
-    color: #FAFAFA;
+    color: black;
 }
-
 
