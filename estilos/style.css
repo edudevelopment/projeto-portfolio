@@ -37,6 +37,8 @@ h1 {
     
 }
 
+
+
 .botoes {
     display: flex;
     float: right;
@@ -118,6 +120,7 @@ main > p {
    
 }
 
+
 .texto-colorido {
     color: #AFB137;
     display: inline;
@@ -130,4 +133,54 @@ main > p {
     font-family: var(--fonte2);
     font-size: 24px;
 }
+
+fieldset {
+    color:#B78BFF;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    font-family: var(--fonte1);
+    font-size: 25px;
+    border-color: transparent;
+}
+
+.formacao {
+    background-color: white;
+    width: 100%;
+    display: block;
+    margin-top: 110px;
+
+}
+
+.formacao div {
+    display: flex;
+    margin-left: 80px;
+}
+
+.formacao h1 {
+    font-family: var(--fonte1);
+    font-size: 64px;
+    padding-top: 100px;
+    color: black;
+    margin-left: 130px;
+
+    
+}
+
+.formacao fieldset {
+    display: inline;
+    margin: 50px;
+    margin-top: 20px;
+    background-color: #07011A;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.39);
+}
+
+.formacao p {
+    margin: 16px;
+    font-size: 20px;
+    color: #FAFAFA;
+}
+
 
