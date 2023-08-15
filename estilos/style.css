@@ -16,6 +16,7 @@
 
 body {
     background-color: #07011A;
+    overflow-x: hidden;
 }
 
 
@@ -80,6 +81,17 @@ h1 {
     transition: width 0.5s ease-in-out;
 }
 
+header {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: #07011A;
+}
+
 .animation:hover::after {
     width: 100%;
 }
@@ -110,6 +122,8 @@ main > p {
 
 #containermain {
     display: flex;
+    height: calc(100vh - 120px);
+    
 }
 
 #imagem {
@@ -120,7 +134,7 @@ main > p {
     float: right;
     border-radius: 6px;
     margin-right: 200px;
-    margin-top: 50px;
+    margin-top: 130px;
    
 }
 
@@ -154,10 +168,7 @@ main > p {
 
 }
 
-.projetos p {
-    font-size: 18px;
-    font-family: var(--fonte1);
-}
+
 
 .txt-proj {
     color: black;
@@ -174,6 +185,7 @@ main > p {
     height: 490px;
     float: left;
     border-radius: 6px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.473);
     margin-top: 160px;
     margin-left: 200px;
     margin-right: 30px;    
@@ -181,54 +193,69 @@ main > p {
 
 
 .projetos fieldset {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     border: 1px solid rgb(189, 189, 189);
     width: 440px;
     height: 80px;
     background-color: rgb(202, 202, 202);  
     padding: 15px;  
-    
 }
 
 .p1 {
     float: right;
     color: rgba(0, 0, 0, 0.637);
+    
 
 }
-
 
 .p2 {
     display: inline;
     border: 1px solid rgb(51, 50, 50);
     border-radius: 5px;
-    padding: 3px;
-}
-
-
-
-fieldset .p2 {
+    background-color: #da6e46;
+    color: white;
     font-size: 14px;
     font-weight: bold;
-    padding-left: 10px;
-    padding-right: 10px;
-    
+    padding:3px 10px;
+    font-size: 14px;
+    font-family: var(--fonte1);
 }
 
-.p3 {
+.css3 {
     display: inline;
+    border: 1px solid rgb(51, 50, 50);
+    border-radius: 5px;
+    background-color: #264de4;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding:3px 10px;
+    font-size: 14px;
+    font-family: var(--fonte1);
+}
+
+
+.p3 {
     float: right;
     text-decoration: none;
     border-radius: 5px;
     border: 1px solid black;
-    padding: 2px;
-    margin-bottom: 15px;
+    padding: 3px 10px;
     background-color: #3A3A3A;
     color: white;
+    font-size: 14px;
     font-family: var(--fonte1);
-    font-weight: lighter;
+    font-weight: bold;
     
 }
+
+.p3:hover {
+    background-color: rgb(141, 138, 138);
+    transition: .5s all;
+}
+
+
 
 fieldset {
     color:black;
@@ -244,12 +271,12 @@ fieldset {
 }
 
 .formacao {
-    background-color: #07011A;
-    width: 100%;
-    display: block;
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin: 60px 0px;
+    background-color: #07011A; 
+}
 
+.maindiv {
+    flex: 1;
 }
 
 .formacao div {
@@ -268,8 +295,6 @@ fieldset {
 }
 
 .formacao fieldset {
-    display: inline;
-    margin-top: 20px;
     background-color: #B78BFF;
     box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.39);
 }
@@ -281,3 +306,16 @@ fieldset {
     font-weight: normal;
 }
 
+
+.foot {
+    
+    background-color: #AFB137;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,75 +8,165 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
+
 <body>
-    <div id="containeirh">
-        <header>
-            <nav>
-                <ul class="botoes">
-                    <li><a href="#" class="animation">Home</a></li>
-                    <li><a href="#" class="animation">Projetos</a></li>
-                    <li><a href="#" class="animation">Formação</a></li>
-                </ul>
-            </nav>
-            <p class="nome" id="text">< Eduard0 Elias ></p>
-        </header>
-    </div>
+    <!--  <button id="scrollDownBtn">Rolar pra baixo</button>  -->
 
-    <img src="imagens/perfil2.jpg" alt="Minha imagem" id="imagem">
+    <div id="maindiv">
+        <div id="containerh">
+            <header>
+                <p class="nome" id="text">
+                    < Eduard0 Elias>
+                </p>
+                <nav>
+                    <ul class="botoes menu">
+                        <li><a href="#containermain" class="animation">Home</a></li>
+                        <li><a href="#projects" class="animation">Projects</a></li>
+                        <li><a href="#about" class="animation">About</a></li>
+                    </ul>
+                </nav>
+                
+            </header>
+        </div>
 
-    <div id="containermain">
-        <main class="texto">
-            <h1>Web developer <br>& Front-end</h1>
-            <p class="texto-colorido">Estudante.de { <div id="texto-colorido2">desenvolvimento de sistemas</div> <div class="texto-colorido">}</div></p>
-        </main>
-    </div>
+        <img src="imagens/perfil2.jpg" alt="Minha imagem" id="imagem">
+        <div id="containermain">
+            <main class="texto">
+                <h1>Web developer <br>& Front-end</h1>
+                <p class="texto-colorido">Estudante.de {
+                <div id="texto-colorido2">desenvolvimento de sistemas</div>
+                <div class="texto-colorido">}</div>
+                </p>
+            </main>
+        </div>
+        <img src="imagens/background4.jpg" alt="imagem projeto" class="imagem-projeto">
 
-    <img src="imagens/background4.jpg" alt="imagem projeto" class="imagem-projeto">
-    <div  class="projetos">
-        <h1 class="txt-proj">Projetos</h1>
-        <p class="txt-proj">Nessa sessao alguns projetos desenvolvidos <br> por mim como a barbearia e o mobile</p>
-           <fieldset>Barbearia
-            <p class="p1">2023</p>
-            <br><br><br>
-            <p class="p2">HTML</p>
-            <p class="p2">CSS</p>
-            <a class="p3" href="https://github.com/edukiss666/site-barbearia" target="_blank">Acessar</a>
-           </fieldset>
-           <fieldset>Tela Login
-            <p class="p1">2023</p>
-            <br><br><br>
-            <p class="p2">HTML</p>
-            <p class="p2">CSS</p>
-            <a class="p3" href="https://github.com/edukiss666/projeto-login" target="_blank">Acessar</a>
-           </fieldset> <fieldset>Portfólio
-            <p class="p1">2023</p>
-            <br><br><br>
-            <p class="p2">HTML</p>
-            <p class="p2">CSS</p>
-            <a class="p3" href="https://github.com/edukiss666/projeto-portfolio" target="_blank">Acessar</a>
-           </fieldset>
-    </div>
+        <div id="projects" class="projetos">
+            <h1 class="txt-proj">Projetos</h1>
+            <p class="txt-proj">Nessa sessao alguns projetos desenvolvidos <br> por mim como a barbearia e o mobile</p>
+            <fieldset>Barbearia
+                <p class="p1">2023</p>
+                <br><br><br>
+                <p class="p2">HTML5</p>
+                <p class="css3">CSS3</p>
+                <a class="p3" href="https://edukiss666.github.io/site-barbearia/" target="_blank">ACESSAR</a>
+            </fieldset>
+            <fieldset>Tela Login
+                <p class="p1">2023</p>
+                <br><br><br>
+                <p class="p2">HTML5</p>
+                <p class="css3">CSS3</p>
+                <a class="p3" href="hhttps://edukiss666.github.io/projeto-login/" target="_blank">ACESSAR</a>
+            </fieldset>
+            <fieldset>Portfólio
+                <p class="p1">2023</p>
+                <br><br><br>
+                <p class="p2">HTML5</p>
+                <p class="css3">CSS3</p>
+                <a class="p3" href="https://github.com/edukiss666/projeto-portfolio" target="_blank">ACESSAR</a>
+            </fieldset>
+        </div>
 
+        <div class="formacao" id="about">
+            <h1 class="txt-form">Formação</h1>
+            <div class="field-form">
+                <fieldset class="field">HTML5
+                    <p>5 Módulos de 40 horas</p>
+                    <p>EAD</p>
+                    <p>Curso em Vídeo Professor Guanabara</p>
+                </fieldset>
+                <fieldset>CSS3
+                    <p>5 Módulos de 40 horas</p>
+                    <p>EAD</p>
+                    <p>Curso em Vídeo Professor Gustavo Guanabara</p>
+                </fieldset>
+                <fieldset>JavaScript
+                    <p>1 Módulo de 40 horas</p>
+                    <p>EAD</p>
+                    <p>Curso em Vídeo Professor Gustavo Guanabara</p>
+                </fieldset>
+                <div>
+                </div>
+            </div>
 
-    <div class="formacao">
-        <h1 class="txt-form">Formação</h1>
-        <div class="field-form">
-        <fieldset class="field">HTML5
-            <p>5 Módulos de 40 horas</p>
-            <p>EAD</p>
-            <p>Curso em Vídeo Professor Guanabara</p>
-        </fieldset>
-        <fieldset>CSS3
-            <p>5 Módulos de 40 horas</p>
-            <p>EAD</p>
-            <p>Curso em Vídeo Professor Gustavo Guanabara</p>
-        </fieldset>
-        <fieldset>JavaScript
-            <p>1 Módulo de 40 horas</p>
-            <p>EAD</p>
-            <p>Curso em Vídeo Professor Gustavo Guanabara</p>
-        </fieldset>
-        <div>
-    </div>
+            <!--
+    <script>
+        document.getElementById('scrollDownBtn').addEventListener('click', function() {
+  // Obtém a altura da janela de visualização
+  var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+
+  // Rola a página para baixo
+  window.scrollBy(0, windowHeight);
+});
+    </script>
+    -->
+           
+
 </body>
+<script>
+    // Identificar o clique no menu
+    // Verificar o item que foi clicado e fazer referência com o alvo
+    // Verificar a distância entre o alvo e o topo
+    // Animar o scroll até o alvo
+
+    const menuItems = document.querySelectorAll('.menu a[href^="#"]');
+
+    function getScrollTopByHref(element) {
+        const id = element.getAttribute('href');
+        return document.querySelector(id).offsetTop;
+    }
+
+    function scrollToPosition(to) {
+        // Caso queira o nativo apenas
+        // window.scroll({
+        // top: to,
+        // behavior: "smooth",
+        // })
+        smoothScrollTo(0, to);
+    }
+
+    function scrollToIdOnClick(event) {
+        event.preventDefault();
+        const to = getScrollTopByHref(event.currentTarget) - 80;
+        scrollToPosition(to);
+    }
+
+    menuItems.forEach(item => {
+        item.addEventListener('click', scrollToIdOnClick);
+    });
+
+    // Caso deseje suporte a browsers antigos / que não suportam scroll smooth nativo
+    /**
+     * Smooth scroll animation
+     * @param {int} endX: destination x coordinate
+     * @param {int) endY: destination y coordinate
+     * @param {int} duration: animation duration in ms
+     */
+    function smoothScrollTo(endX, endY, duration) {
+        const startX = window.scrollX || window.pageXOffset;
+        const startY = window.scrollY || window.pageYOffset;
+        const distanceX = endX - startX;
+        const distanceY = endY - startY;
+        const startTime = new Date().getTime();
+
+        duration = typeof duration !== 'undefined' ? duration : 400;
+
+        // Easing function
+        const easeInOutQuart = (time, from, distance, duration) => {
+            if ((time /= duration / 2) < 1) return distance / 2 * time * time * time * time + from;
+            return -distance / 2 * ((time -= 2) * time * time * time - 2) + from;
+        };
+
+        const timer = setInterval(() => {
+            const time = new Date().getTime() - startTime;
+            const newX = easeInOutQuart(time, startX, distanceX, duration);
+            const newY = easeInOutQuart(time, startY, distanceY, duration);
+            if (time >= duration) {
+                clearInterval(timer);
+            }
+            window.scroll(newX, newY);
+        }, 1000 / 60); // 60 fps
+    };
+</script>
+
 </html>
